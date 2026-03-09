@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">30 дней Android</string>
+    <string name="day_label">День %1$d</string>
+
+    <!-- День 1 -->
+    <string name="title_1">Основы Kotlin</string>
+    <string name="short_desc_1">Переменные и функции.</string>
+    <string name="long_desc_1">Изучи разницу между val и var. Пойми, как объявлять функции и использовать базовые типы данных. Это фундамент всей разработки.</string>
+
+    <!-- День 2 -->
+    <string name="title_2">Управляющие конструкции</string>
+    <string name="short_desc_2">Условия if и when.</string>
+    <string name="long_desc_2">Разберись, как работают операторы ветвления. Оператор when в Kotlin гораздо мощнее, чем switch в других языках.</string>
+
+    <!-- День 3 -->
+    <string name="title_3">Null Safety</string>
+    <string name="short_desc_3">Безопасность и типы ?.</string>
+    <string name="long_desc_3">Kotlin защищает от NullPointerException. Изучи операторы ?. (безопасный вызов) и ?: (elvis-оператор).</string>
+
+    <!-- День 4 -->
+    <string name="title_4">Классы и объекты</string>
+    <string name="short_desc_4">ООП в Kotlin.</string>
+    <string name="long_desc_4">Создай свои первые классы. Узнай, чем отличаются обычные классы от data-классов, которые автоматически генерируют методы equals и hashCode.</string>
+
+    <!-- День 5 -->
+    <string name="title_5">Списки и коллекции</string>
+    <string name="short_desc_5">List, Set и Map.</string>
+    <string name="long_desc_5">Изучи разницу между изменяемыми (mutable) и неизменяемыми коллекциями. Это критически важно для управления данными в списке.</string>
+
+    <!-- День 6 -->
+    <string name="title_6">XML разметка</string>
+    <string name="short_desc_6">Основы View и ViewGroup.</string>
+    <string name="long_desc_6">Пойми, как работает иерархия элементов. Изучи LinearLayout и FrameLayout — простейшие способы размещения кнопок и текста.</string>
+
+    <!-- День 7 -->
+    <string name="title_7">ConstraintLayout</string>
+    <string name="short_desc_7">Гибкая верстка.</string>
+    <string name="long_desc_7">Это самый мощный инструмент для создания сложных экранов. Научись привязывать элементы друг к другу и краям экрана.</string>
+
+    <!-- День 8 -->
+    <string name="title_8">Жизненный цикл Activity</string>
+    <string name="short_desc_8">onCreate, onStart, onResume...</string>
+    <string name="long_desc_8">Разберись, что происходит с приложением, когда пользователь сворачивает его или поворачивает экран. Это предотвратит потерю данных.</string>
+
+    <!-- День 9 -->
+    <string name="title_9">Интенты (Intents)</string>
+    <string name="short_desc_9">Переход между экранами.</string>
+    <string name="long_desc_9">Используй явные интенты для запуска новых Activity и неявные — для открытия браузера или совершения звонков.</string>
+
+    <!-- День 10 -->
+    <string name="title_10">Material Design</string>
+    <string name="short_desc_10">Стиль и эстетика.</string>
+    <string name="long_desc_10">Изучи гайдлайны Google. Используй MaterialCardView и правильные отступы, чтобы приложение выглядело профессионально.</string>
+
+    <!-- День 11 -->
+    <string name="title_11">Цвета и темы</string>
+    <string name="short_desc_11">colors.xml и themes.xml.</string>
+    <string name="long_desc_11">Вынеси все цвета в отдельный файл. Это позволит легко добавить темную тему для твоего приложения в будущем.</string>
+
+    <!-- День 12 -->
+    <string name="title_12">Работа с изображениями</string>
+    <string name="short_desc_12">Drawables и плотность пикселей.</string>
+    <string name="long_desc_12">Узнай разницу между форматами PNG и WebP. Всегда оптимизируй размер картинок, чтобы приложение не занимало много памяти.</string>
+
+    <!-- День 13 -->
+    <string name="title_13">Размеры и dimens.xml</string>
+    <string name="short_desc_13">Использование dp и sp.</string>
+    <string name="long_desc_13">Никогда не пиши размеры текста в dp. Используй sp для текста и dp для отступов, чтобы интерфейс масштабировался корректно.</string>
+
+    <!-- День 14 -->
+    <string name="title_14">ScrollView</string>
+    <string name="short_desc_14">Прокрутка контента.</string>
+    <string name="long_desc_14">Если контента больше, чем влезает на экран, оберни его в ScrollView. Помни, что внутри него может быть только один дочерний элемент.</string>
+
+    <!-- День 15 -->
+    <string name="title_15">RecyclerView: Основы</string>
+    <string name="short_desc_15">Списки больших данных.</string>
+    <string name="long_desc_15">RecyclerView — это "переработчик". Он не создает тысячи View, а переиспользует те, что уже ушли за пределы экрана.</string>
+
+    <!-- День 16 -->
+    <string name="title_16">ViewHolder паттерн</string>
+    <string name="short_desc_16">Оптимизация поиска View.</string>
+    <string name="long_desc_16">ViewHolder хранит ссылки на элементы разметки. Это избавляет систему от вызова findViewById при каждом скролле.</string>
+
+    <!-- День 17 -->
+    <string name="title_17">Adapter</string>
+    <string name="short_desc_17">Связующее звено.</string>
+    <string name="long_desc_17">Адаптер берет твои данные из списка и превращает их в визуальные карточки. Реализуй методы getItemCount и onBindViewHolder.</string>
+
+    <!-- День 18 -->
+    <string name="title_18">Обработка кликов</string>
+    <string name="short_desc_18">Кликабельные элементы.</string>
+    <string name="long_desc_18">Настрой слушатель кликов (OnClickListener) в адаптере, чтобы пользователь мог переходить к деталям каждого совета.</string>
+
+    <!-- День 19 -->
+    <string name="title_19">CardView и тени</string>
+    <string name="short_desc_19">Визуальное выделение.</string>
+    <string name="long_desc_19">Используй cardElevation и cardCornerRadius, чтобы создать эффект глубины и сделать карточки советов приятными на ощупь.</string>
+
+    <!-- День 20 -->
+    <string name="title_20">Локализация</string>
+    <string name="short_desc_20">Поддержка языков.</string>
+    <string name="long_desc_20">Создай папку values-en. Это сделает твое приложение доступным для миллионов пользователей по всему миру.</string>
+
+    <!-- День 21 -->
+    <string name="title_21">Отладка и Logcat</string>
+    <string name="short_desc_21">Поиск ошибок.</string>
+    <string name="long_desc_21">Используй Log.d() для отслеживания переменных в реальном времени. Это гораздо эффективнее, чем просто гадать, почему код не работает.</string>
+
+    <!-- День 22 -->
+    <string name="title_22">Shared Preferences</string>
+    <string name="short_desc_22">Сохранение настроек.</string>
+    <string name="long_desc_22">Научись сохранять простые данные, такие как имя пользователя или выбранная тема, даже после перезагрузки приложения.</string>
+
+    <!-- День 23 -->
+    <string name="title_23">Корутины (Coroutines)</string>
+    <string name="short_desc_23">Фоновые задачи.</string>
+    <string name="long_desc_23">Никогда не выполняй тяжелые задачи в главном потоке. Используй корутины, чтобы приложение работало плавно и без зависаний.</string>
+
+    <!-- День 24 -->
+    <string name="title_24">Работа с сетью</string>
+    <string name="short_desc_24">Библиотека Retrofit.</string>
+    <string name="long_desc_24">Retrofit позволяет твоему приложению общаться с серверами. Это стандарт индустрии для получения данных из интернета.</string>
+
+    <!-- День 25 -->
+    <string name="title_25">JSON парсинг</string>
+    <string name="short_desc_25">Библиотека Gson.</string>
+    <string name="long_desc_25">Данные из интернета обычно приходят в формате JSON. Библиотека Gson поможет превратить их в объекты Kotlin одной строчкой кода.</string>
+
+    <!-- День 26 -->
+    <string name="title_26">Архитектура MVVM</string>
+    <string name="short_desc_26">ViewModel и LiveData.</string>
+    <string name="long_desc_26">Разделяй логику и интерфейс. ViewModel сохраняет данные при повороте экрана, а LiveData сообщает экрану об их обновлении.</string>
+
+    <!-- День 27 -->
+    <string name="title_27">Фрагменты (Fragments)</string>
+    <string name="short_desc_27">Модульные экраны.</string>
+    <string name="long_desc_27">Фрагменты позволяют создавать гибкие интерфейсы, которые легко адаптировать под планшеты и смартфоны.</string>
+
+    <!-- День 28 -->
+    <string name="title_28">Хранение данных: Room</string>
+    <string name="short_desc_28">Локальная база данных.</string>
+    <string name="long_desc_28">Room — это обертка над SQLite. Используй ее, чтобы хранить большие объемы данных прямо на устройстве пользователя.</string>
+
+    <!-- День 29 -->
+    <string name="title_29">Тестирование</string>
+    <string name="short_desc_29">Unit тесты.</string>
+    <string name="long_desc_29">Хороший разработчик пишет тесты. Начни с простых JUnit тестов, чтобы убедиться, что твоя бизнес-логика работает верно.</string>
+
+    <!-- День 30 -->
+    <string name="title_30">Публикация в Store</string>
+    <string name="short_desc_30">Сборка APK и Bundle.</string>
+    <string name="long_desc_30">Поздравляю! Ты прошел путь в 30 дней. Теперь научись собирать финальный файл приложения для отправки друзьям или в магазин.</string>
+
+</resources>
