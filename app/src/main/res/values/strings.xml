@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">30 Days of Android</string>
+    <string name="day_label">Day %1$d</string>
+
+    <!-- Day 1 -->
+    <string name="title_1">Kotlin Basics</string>
+    <string name="short_desc_1">Variables and functions.</string>
+    <string name="long_desc_1">Learn the difference between val and var. Understand how to declare functions and use basic data types. This is the core foundation of all development.</string>
+
+    <!-- Day 2 -->
+    <string name="title_2">Control Flow</string>
+    <string name="short_desc_2">if and when conditions.</string>
+    <string name="long_desc_2">Explore branching operators. The when operator in Kotlin is much more powerful and flexible than the traditional switch in other languages.</string>
+
+    <!-- Day 3 -->
+    <string name="title_3">Null Safety</string>
+    <string name="short_desc_3">Safety and ? types.</string>
+    <string name="long_desc_3">Kotlin protects you from NullPointerException. Study the ?. (safe call) and ?: (elvis operator) to handle null values gracefully.</string>
+
+    <!-- Day 4 -->
+    <string name="title_4">Classes and Objects</string>
+    <string name="short_desc_4">OOP in Kotlin.</string>
+    <string name="long_desc_4">Create your first classes. Learn how regular classes differ from data classes, which automatically generate equals and hashCode methods.</string>
+
+    <!-- Day 5 -->
+    <string name="title_5">Lists and Collections</string>
+    <string name="short_desc_5">List, Set, and Map.</string>
+    <string name="long_desc_5">Understand the difference between mutable and immutable collections. This is critical for managing data within lists efficiently.</string>
+
+    <!-- Day 6 -->
+    <string name="title_6">XML Layouts</string>
+    <string name="short_desc_6">Views and ViewGroups.</string>
+    <string name="long_desc_6">Understand how the element hierarchy works. Learn LinearLayout and FrameLayout — the simplest ways to arrange buttons and text.</string>
+
+    <!-- Day 7 -->
+    <string name="title_7">ConstraintLayout</string>
+    <string name="short_desc_7">Flexible UI design.</string>
+    <string name="long_desc_7">This is the most powerful tool for building complex screens. Learn how to constrain elements to each other and the screen edges.</string>
+
+    <!-- Day 8 -->
+    <string name="title_8">Activity Lifecycle</string>
+    <string name="short_desc_8">onCreate, onStart, onResume...</string>
+    <string name="long_desc_8">Understand what happens to the app when a user minimizes it or rotates the screen. This knowledge prevents data loss.</string>
+
+    <!-- Day 9 -->
+    <string name="title_9">Intents</string>
+    <string name="short_desc_9">Navigating between screens.</string>
+    <string name="long_desc_9">Use explicit intents to launch new Activities and implicit intents to open a browser or make a phone call.</string>
+
+    <!-- Day 10 -->
+    <string name="title_10">Material Design</string>
+    <string name="short_desc_10">Style and aesthetics.</string>
+    <string name="long_desc_10">Study Google\'s guidelines. Use MaterialCardView and proper padding to make your app look professional and modern.</string>
+
+    <!-- Day 11 -->
+    <string name="title_11">Colors and Themes</string>
+    <string name="short_desc_11">colors.xml and themes.xml.</string>
+    <string name="long_desc_11">Move all your colors to a separate file. This allows you to easily implement a dark theme for your app in the future.</string>
+
+    <!-- Day 12 -->
+    <string name="title_12">Working with Images</string>
+    <string name="short_desc_12">Drawables and pixel density.</string>
+    <string name="long_desc_12">Learn the difference between PNG and WebP formats. Always optimize image sizes to ensure your app doesn\'t consume too much memory.</string>
+
+    <!-- Day 13 -->
+    <string name="title_13">Sizes and dimens.xml</string>
+    <string name="short_desc_13">Using dp and sp.</string>
+    <string name="long_desc_13">Never write text sizes in dp. Use sp for text and dp for padding/margins so that the UI scales correctly for all users.</string>
+
+    <!-- Day 14 -->
+    <string name="title_14">ScrollView</string>
+    <string name="short_desc_14">Scrolling content.</string>
+    <string name="long_desc_14">If content is larger than the screen, wrap it in a ScrollView. Remember, it can only contain one direct child element.</string>
+
+    <!-- Day 15 -->
+    <string name="title_15">RecyclerView: Basics</string>
+    <string name="short_desc_15">Lists of large data.</string>
+    <string name="long_desc_15">RecyclerView is a "recycler". It doesn\'t create thousands of views, but reuses those that have already scrolled off the screen.</string>
+
+    <!-- Day 16 -->
+    <string name="title_16">ViewHolder Pattern</string>
+    <string name="short_desc_16">Optimizing View lookups.</string>
+    <string name="long_desc_16">The ViewHolder stores references to the UI elements. This saves the system from calling findViewById during every scroll.</string>
+
+    <!-- Day 17 -->
+    <string name="title_17">The Adapter</string>
+    <string name="short_desc_17">The bridge to data.</string>
+    <string name="long_desc_17">The adapter takes your data list and turns it into visual cards. Implement getItemCount and onBindViewHolder methods.</string>
+
+    <!-- Day 18 -->
+    <string name="title_18">Handling Clicks</string>
+    <string name="short_desc_18">Clickable elements.</string>
+    <string name="long_desc_18">Set an OnClickListener in your adapter so that users can navigate to the details of each specific tip.</string>
+
+    <!-- Day 19 -->
+    <string name="title_19">CardView and Shadows</string>
+    <string name="short_desc_19">Visual depth.</string>
+    <string name="long_desc_19">Use cardElevation and cardCornerRadius to create a depth effect and make your tips feel tactile and premium.</string>
+
+    <!-- Day 20 -->
+    <string name="title_20">Localization</string>
+    <string name="short_desc_20">Language support.</string>
+    <string name="long_desc_20">Create a values-ru folder. This makes your app accessible to millions of additional users across the world.</string>
+
+    <!-- Day 21 -->
+    <string name="title_21">Debugging and Logcat</string>
+    <string name="short_desc_21">Finding errors.</string>
+    <string name="long_desc_21">Use Log.d() to track variables in real-time. It\'s much more effective than just guessing why the code isn\'t working.</string>
+
+    <!-- Day 22 -->
+    <string name="title_22">Shared Preferences</string>
+    <string name="short_desc_22">Saving settings.</string>
+    <string name="long_desc_22">Learn how to save simple data, such as a username or a theme preference, so it persists even after the app restarts.</string>
+
+    <!-- Day 23 -->
+    <string name="title_23">Coroutines</string>
+    <string name="short_desc_23">Background tasks.</string>
+    <string name="long_desc_23">Never perform heavy tasks on the main thread. Use coroutines to keep your app smooth and responsive without freezes.</string>
+
+    <!-- Day 24 -->
+    <string name="title_24">Networking</string>
+    <string name="short_desc_24">Retrofit library.</string>
+    <string name="long_desc_24">Retrofit allows your app to communicate with servers. This is the industry standard for fetching data from the internet.</string>
+
+    <!-- Day 25 -->
+    <string name="title_25">JSON Parsing</string>
+    <string name="short_desc_25">Gson library.</string>
+    <string name="long_desc_25">Data from the internet usually comes in JSON format. The Gson library helps convert it into Kotlin objects with one line of code.</string>
+
+    <!-- Day 26 -->
+    <string name="title_26">MVVM Architecture</string>
+    <string name="short_desc_26">ViewModel and LiveData.</string>
+    <string name="long_desc_26">Separate logic from the UI. ViewModel preserves data during rotation, while LiveData notifies the UI about updates.</string>
+
+    <!-- Day 27 -->
+    <string name="title_27">Fragments</string>
+    <string name="short_desc_27">Modular screens.</string>
+    <string name="long_desc_27">Fragments allow you to build flexible interfaces that are easy to adapt for tablets and different screen sizes.</string>
+
+    <!-- Day 28 -->
+    <string name="title_28">Room Database</string>
+    <string name="short_desc_28">Local storage.</string>
+    <string name="long_desc_28">Room is a wrapper over SQLite. Use it to store large amounts of data locally on the user\'s device.</string>
+
+    <!-- Day 29 -->
+    <string name="title_29">Testing</string>
+    <string name="short_desc_29">Unit tests.</string>
+    <string name="long_desc_29">A good developer writes tests. Start with simple JUnit tests to ensure your business logic is working correctly.</string>
+
+    <!-- Day 30 -->
+    <string name="title_30">Play Store Publishing</string>
+    <string name="short_desc_30">APK and Bundle builds.</string>
+    <string name="long_desc_30">Congratulations! You finished the 30-day journey. Now learn how to build the final app bundle to share with friends or the store.</string>
+
+</resources>
